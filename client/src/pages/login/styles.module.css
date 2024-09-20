@@ -1,0 +1,30 @@
+.box {
+    display:flex;
+    justify-content: center;
+}
+
+.login_form {
+    width:fit-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    text-align: center;
+}
+
+.login_form> * {
+    margin-bottom: 10px;
+}
+
+.login_form> h2 {
+    padding: 10px;
+}
+
+.login_form> input {
+    padding: 9px;
+    border-radius: 7px;
+    font-family: system-ui;
+    font-size: 18px;
+}

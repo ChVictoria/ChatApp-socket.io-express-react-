@@ -1,0 +1,29 @@
+.incomingMsg {
+    position:sticky;
+    margin-right:auto;
+    
+    
+}
+
+.incomingMsg > .msg {
+    background-color: rgba(247, 95, 171, 0.272);
+    padding: 8px;
+    border-radius: 7px;
+}
+
+.outcomingMsg {
+  text-align: right;
+
+}
+
+.outcomingMsg > .msg {
+    background-color: rgba(95, 224, 247, 0.276);
+    padding: 8px;
+    border-radius: 7px;
+}
+
+.sender {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

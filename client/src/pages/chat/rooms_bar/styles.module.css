@@ -1,0 +1,91 @@
+.switch {
+    display:flex;
+    align-items: space-between;
+    justify-content: center;
+    font-size: 20px;
+    width:max-content;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.radiobtn {
+    width:0px;
+    
+}
+
+.switchLabel {
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+}
+
+.switchLabel:has(.radiobtn:not(:checked)) {
+    background-color:  #4752ed47;
+}
+
+.chatlist > li {
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #1b2d3d7d;
+}
+
+.chatlist {
+    overflow-y: scroll;
+    width:100%;
+}
+
+.startNewChat {
+    position: absolute;
+    width:150px;
+    left:35px;
+    bottom:20px;
+}
+
+.startNewChat > input {
+    padding: 9px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    font-family: system-ui;
+    font-size: 18px;
+    width:100%;
+    
+}
+.chatlist {
+    display:flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    font-size: 20px;
+    width:100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+
+
+.username:has(.radiobtn:checked) {
+    background-color:  #79ed4747;
+}
+
+.username {
+    border-radius: 5px;
+    padding:10px;
+   
+}
+
+.usernameNewMsg {
+    background-color:  #ed47ab47;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.chatlist::-webkit-scrollbar {
+    margin-left: auto;
+}
+
+
+

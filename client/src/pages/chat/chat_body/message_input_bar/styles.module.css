@@ -1,0 +1,27 @@
+.MessageInput > input {
+    padding: 9px;
+    border-radius: 7px;
+    font-family: system-ui;
+    font-size: 18px;
+    width:100%;
+    
+}
+
+.MessageInput {
+    position: absolute;
+    bottom: 20px;
+    right:220px;
+    left: 220px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    right:0;
+
+}
+
+.MessageInput > button {
+    height:46px;
+    margin-left: 10px;
+}
+

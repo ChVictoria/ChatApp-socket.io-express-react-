@@ -1,0 +1,9 @@
+.participantsList {
+    padding-top: 20px;
+    overflow-y: scroll;
+}
+
+.participantsList > li{
+    padding: 5px;
+    font-size: 18px;
+}
